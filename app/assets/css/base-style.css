@@ -1,0 +1,22 @@
+/*  */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin: 0;
+}
+.headline{
+    font-size: 4.75em;
+    margin-bottom: 0;
+    color: #035E5E;
+}
+.tagline{
+    font-size: 1.75em;
+    margin-top: 0;
+    
+    color: #555;
+}
