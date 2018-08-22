@@ -1,20 +1,18 @@
-***************************************************
-*                   EASE MVC                      *
-*        (Created by Oguntuberu Nathan O.)        *
-***************************************************
+EASEPHP
 
-=>  [DESCRIPTION]
     This framework simplifies PHP app development
     using the Model-View-Controller architecture.
     It seeks to eliminate excessive third party dep-
     endencies and enforces proper security measures.
     
-=>  [TABLE OF CONTENTS]
+Table of contents:
+
     *   USAGE
     *   CONTRIBUTING
     *   CREDITS
     
-=>  [USAGE]
+Usage:
+
     To use this framework, all that's require is
     pulling the repo into your root directory.
     A few things should be noted:
@@ -27,7 +25,8 @@
         time of writing.
     4.  Enjoy!
     
-=>  [CONTRIBUTING]
+Contributing:
+ 
     1.  Before opening a pull request, kindly ensure
         that there are no open pull requests for the
         feature you wish to modify.
