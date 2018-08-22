@@ -1,7 +1,4 @@
-
 EASEPHP
-
-Description:
 
     This framework simplifies PHP app development
     using the Model-View-Controller architecture.
