@@ -15,7 +15,6 @@
      *
      *  If any other methods are created, the must ONLY be helper methods
     */
-    require_once('Forms.php');
     
     class Controller extends Form
     {
