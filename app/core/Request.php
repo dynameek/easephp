@@ -89,7 +89,7 @@
          */
         private function parseUrl()
         {
-            $url = $_GET['url'];    #   Get url from address bar
+            $url = isset($_GET['url']) ? $_GET['url'] : '';    #   Get url from address bar
             $url = explode('/', htmlspecialchars(rtrim($url, '/')));  #blow url into array
             return $url;
         }
