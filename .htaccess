@@ -4,6 +4,6 @@ RewriteEngine On
 RewriteBase /framework
 
 RewriteCond %{REQUEST_URI} !-d
-RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^(.+)[(\.php)(\.html)(\.htm)][^(css)(js)(ts)]$ index.php?url=$1 [QSA,L]
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
